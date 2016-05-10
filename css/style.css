@@ -2,6 +2,12 @@
 
 header {
   background-color: black;
+  padding-bottom: 10px;
+}
+
+nav a.brand-logo > i {
+  display: inline;
+  font-size: 35px;
 }
 
 nav .brand-logo {
@@ -11,6 +17,11 @@ nav .brand-logo {
 nav ul a:hover {
   background-color: #2BC2B6;
   color: black;
+}
+
+h1.header {
+  margin-top: 70px;
+  margin-bottom: 5px; 
 }
 
 p {
@@ -55,9 +66,17 @@ p {
   font-size: inherit;
 }
 
+/* Contacto */
 
+.contacto {
+  padding: 50px 0px;
+}
 
-/* HEADER */
+form {
+  padding: 20px 20px;
+}
+
+/* Footer */
 
 footer.page-footer {
   margin: 0;
