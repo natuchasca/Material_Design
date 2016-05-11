@@ -66,6 +66,12 @@ p {
   font-size: inherit;
 }
 
+blockquote {
+  border-color: #2BC2B6;
+  text-align: left;
+}
+
+
 /* Contacto */
 
 .contacto {
@@ -80,4 +86,10 @@ form {
 
 footer.page-footer {
   margin: 0;
+}
+
+footer .material-icons {
+  display: inline;
+  margin-right: 10px;
+  vertical-align: middle;
 }
